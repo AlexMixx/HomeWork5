@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background: #98bb93;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+ul{
+    letter-spacing: 2px;
+}
+.linethree{
+    text-decoration: line-through red;
+}
+
+li:nth-child(3n+2){
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    font-weight: bold;
+}
+
+
+
+
+.top{
+    text-decoration-line: overline;
+    letter-spacing: 6px;
+}
+
+h3{
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+/* PLACES*/
+
+.praga{
+background-color: yellow;
+width: 420px;
+height: 150px;
+border: dotted black 5px;
+margin: 20px 1000px 15px 60px;
+
+}
+
+.paris{
+background-color: #a5cc4f ;
+width: 420px;
+height: 150px;
+border: dashed black 5px;
+margin: 0px 50px 0px 1050px;
+
+}
+
+.germany{
+background-color: #8e71d5;
+width: 420px;
+height: 150px;
+border: dashed black 5px;
+margin: 0px 0px 0px 250px;
+}
+
+
+.austria{
+background-color:#ea8677;
+width: 420px;
+height: 150px;
+border:dotted black 5px;
+margin: 0px 0px 0px 700px;
+}
+
+.textPraga,
+.textParis,
+.textGermany,
+.textAustria{
+    text-indent: 25px;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
